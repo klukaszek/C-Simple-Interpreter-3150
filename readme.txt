@@ -14,6 +14,12 @@ To compile the program, run the following command:
 make
 ```
 
+To clean the directory, run the following command:
+
+```bash
+make clean
+```
+
 This will create two executables, a4 and a4ng.
 
 a4 is a graphical version of the interpreter that uses ncurses to display the output.
