@@ -1,0 +1,22 @@
+0 int a
+1 int b
+2 int len
+3 begin
+4 set a 0
+5 set b 0
+6 set len 8
+7 print a b *
+9 print a len *
+10 add a 1
+11 if a lt len
+12 goto 5
+43 set b 0
+44 sub len 1
+45 add b 1
+144 print a b *
+145 if b lt len
+146 goto 45
+147 add a 2
+148 set b 0
+149 print a b tada!_Its_a_vase!
+150 end

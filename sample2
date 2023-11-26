@@ -1,0 +1,10 @@
+1 int a
+2 int b
+5 begin
+8 set a 5
+9 set b 0
+50 add b 1
+55 print  b b *
+60 if a ne b
+70   goto 50
+100 end

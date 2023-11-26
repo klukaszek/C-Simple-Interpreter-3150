@@ -1,0 +1,9 @@
+1 int a
+3 int b
+5 begin
+10 set a 5
+12 add a 2
+15 set b 7
+40 if a eq b
+50   print a b a==b
+100 end

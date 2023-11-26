@@ -1,0 +1,12 @@
+1 int i
+2 int sum
+3 begin
+4 set i 1
+5 set sum 0
+6 if i gt 10
+7 goto 11
+8 add sum i
+9 add i 1
+10 goto 6
+11 print sum i final_sum
+12 end
